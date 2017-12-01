@@ -1,0 +1,70 @@
+body {
+  background: repeating-linear-gradient(
+    to right,
+    #ffe8f5,
+    #ffe8f5 10px,
+    #fbc2e3 10px,
+    #fbc2e3 20px
+  );
+
+  padding-bottom: 2em
+}
+
+#main-container {
+  margin-top: 2em;
+  /*margin-bottom: 2em;*/
+  padding-bottom: 1.5em;
+}
+
+.container {
+  background-color: #FFFFFF;
+}
+
+.profile-photo,
+.description {
+  /*display: inline-block;
+  width: 50%;*/
+}
+
+.profile-photo > img {
+  width: 100%;
+}
+
+.heart-svg {
+  width: 20px;
+  display: inline-block;
+}
+
+.social-svg {
+  width: 48px;
+  display: inline-block;
+  margin-right: 1em;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+.row-diff {
+	/* column width */
+	-moz-column-width: 19em;
+	-webkit-column-width: 19em;
+
+	/* space between columns */
+	-moz-column-gap: 1em;
+	-webkit-column-gap: 1em;
+}
+
+.item {
+	display: inline-block;
+	width: 100%;
+  margin-bottom: .6em;
+}
+
+div.container.footer {
+  background-color: #ffe8f5;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+}

@@ -1,0 +1,25 @@
+{
+  "name": "ruth-gomes-lima",
+  "authors": [
+    "Rafael Francisco <rafael.dev@hotmail.com>"
+  ],
+  "description": "POrtifólio para mamis",
+  "main": "index.html",
+  "keywords": [
+    "confeitaria",
+    "confeira",
+    "comida"
+  ],
+  "license": "MIT",
+  "homepage": "index.html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
