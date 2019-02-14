@@ -41,7 +41,7 @@
 
     var img = doc.createElement("img");
     img.setAttribute("class", "img-fluid img-thumbnail");
-    img.setAttribute("src", "/image/" + src);
+    img.setAttribute("src", "image/" + src);
 
     outerDiv.appendChild(anchor);
     anchor.appendChild(img);
@@ -49,6 +49,5 @@
     return outerDiv;
   }
 
-  //RUN
   init();
 })(document);
