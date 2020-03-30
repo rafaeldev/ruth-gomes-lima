@@ -41,6 +41,12 @@ body {
   margin-right: 1em;
 }
 
+.social-svg-mini {
+  width: 24px;
+  display: inline-block;
+  margin-right: 0.5em;
+}
+
 *,
 *:before,
 *:after {
@@ -67,4 +73,12 @@ div.container.footer {
   background-color: #ffe8f5;
   padding-top: 1.5em;
   padding-bottom: 1.5em;
+}
+
+.description > p {
+  font-size: large;
+}
+
+.bold {
+  font-weight: bold;
 }
